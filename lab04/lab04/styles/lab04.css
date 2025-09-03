@@ -1,0 +1,69 @@
+/*
+
+filename: Ngai Jun Min
+
+author: Ngai Jun Min
+
+created: 03-09-2025
+
+last modified: 03-09-2025
+
+description: style for lab04.html
+
+*/
+
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+h2{
+    color:green
+}
+.red{
+    color:red
+}
+.special{
+    color:orange
+}
+/* Style the table */
+table {
+  border-collapse: collapse;   /* Merge borders */
+  width: 10%;                  /* Adjust width */
+  margin: 10px 0;              /* Some spacing around table */
+}
+
+/* Borders for all cells */
+table, th, td {
+  border: 1px solid black;
+}
+
+/* Padding + alignment */
+th, td {
+  padding: 6px;
+  text-align: center;
+}
+
+/* Style caption */
+caption {
+  caption-side: top;    /* Keep caption on top */
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+nav a {
+  display: inline-block;       /* Makes them behave like buttons */
+  border: 1px solid #999;      /* Gray border */
+  padding: 6px 12px;           /* Space inside the box */
+  margin-right: 5px;           /* Small gap between boxes */
+  text-decoration: none;       /* Remove underline */
+  color: black;                /* Text color */
+  background-color: #f9f9f9;   /* Light background */
+  font-size: 14px;
+}
+
+/* Change color on hover */
+nav a:hover {
+  background-color: #e0e0e0;   /* Darker gray when hovered */
+  border-color: #666;          /* Darker border */
+}
